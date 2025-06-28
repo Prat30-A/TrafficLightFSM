@@ -1,0 +1,8 @@
+# Ignore CMake build directory
+/build/
+
+# Ignore compiled executables
+*.exe
+
+# Ignore VS Code workspace settings
+.vscode/
