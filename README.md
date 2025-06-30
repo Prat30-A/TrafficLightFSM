@@ -1,7 +1,7 @@
-# 🚦 Traffic Light FSM (Finite State Machine) Simulation
+## Traffic Light FSM (Finite State Machine) Simulation
 This project simulates a traffic light system using a Finite State Machine (FSM) written in C++. It includes an interface built with Python to simulate emergency overrides, mimicking UART communication for embedded system testing.
 
-## 📁 Project Structure
+## Project Structure
 ```
 TrafficLightFSM/
 ├── src/ # Main C++ source code for FSM logic
@@ -13,13 +13,13 @@ TrafficLightFSM/
 └── README.md # This file
 ```
 
-## 🔧 Features
+## Features
 
 - Simulates North-South (NS) and East-West (EW) traffic lights with timed transitions.
 - Emergency mode (all directions red) triggered by Python script.
 - Manual test interface using simulated UART via Python.
 
-## 🛠️ How to Build and Run (C++ FSM)
+## How to Build and Run (C++ FSM)
 
 ### Prerequisites
 - [CMake](https://cmake.org/)
@@ -28,7 +28,7 @@ TrafficLightFSM/
 
 ---
 
-### 🔧 Build Instructions
+### Build Instructions
 
 ```bash
 # Clone the repository
@@ -45,7 +45,7 @@ cmake --build .
 
 # Run the FSM executable
 ./traffic_fsm.exe
-### 🖥️ Run the Python Interface
+### Run the Python Interface
 cd interface
 python control.py
 - You’ll be prompted to enter 1 (to simulate emergency) or 0 (normal mode).
@@ -53,7 +53,7 @@ python control.py
 
 ```
 
-### 🔄 FSM Logic
+### FSM Logic
 - The FSM has five states:
 
 - NS_Green
