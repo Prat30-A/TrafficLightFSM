@@ -19,8 +19,6 @@ TrafficLightFSM/
 
 ## 🛠️ How to Build and Run (C++ FSM)
 
-## 🛠️ How to Build and Run (C++ FSM)
-
 ### Prerequisites
 - [CMake](https://cmake.org/)
 - A C++ compiler (e.g., MinGW or g++)
@@ -66,7 +64,7 @@ python control.py
 
 - Emergency
 
-- Each state transitions with a delay:
+### Each state transitions with a delay:
 
 - Green: 5 seconds
 
