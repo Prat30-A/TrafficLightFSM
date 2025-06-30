@@ -15,7 +15,6 @@ TrafficLightFSM/
 
 - Simulates North-South (NS) and East-West (EW) traffic lights with timed transitions.
 - Emergency mode (all directions red) triggered by Python script.
-- Designed to be compatible with embedded systems (e.g. STM32).
 - Manual test interface using simulated UART via Python.
 
 ## 🛠️ How to Build and Run (C++ FSM)
