@@ -1,10 +1,17 @@
 # 🚦 Traffic Light FSM (Finite State Machine) Simulation
 This project simulates a traffic light system using a Finite State Machine (FSM) written in C++. It includes an interface built with Python to simulate emergency overrides, mimicking UART communication for embedded system testing.
 
-<pre> <code>## 📁 Project Structure 
-``` 
-TrafficLightFSM/ ├── src/ # Main C++ source code for FSM logic │ └── traffic_fsm.cpp/hpp ├── interface/ # Python interface to simulate UART input │ └── control.py ├── data/ # Shared file for state communication (input.txt) ├── CMakeLists.txt # Build configuration └── README.md # This file 
-``` </code> </pre>
+## 📁 Project Structure
+```
+TrafficLightFSM/
+├── src/ # Main C++ source code for FSM logic
+│ └── traffic_fsm.cpp/hpp
+├── interface/ # Python interface to simulate UART input
+│ └── control.py
+├── data/ # Shared file for state communication (input.txt)
+├── CMakeLists.txt # Build configuration
+└── README.md # This file
+```
 
 ## 🔧 Features
 
