@@ -51,6 +51,8 @@ python control.py
 - You’ll be prompted to enter 1 (to simulate emergency) or 0 (normal mode).
 - This writes to ../data/input.txt, which the FSM reads.
 
+```
+
 ### 🔄 FSM Logic
 - The FSM has five states:
 
@@ -75,4 +77,4 @@ python control.py
 - The Python script triggers the Emergency state by writing 1 to data/input.txt.
 
 ### License
-This project is open-source under the MIT License.
+- This project is open-source under the MIT License.
