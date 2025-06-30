@@ -19,19 +19,23 @@ TrafficLightFSM/
 
 ## 🛠️ How to Build and Run (C++ FSM)
 
+## 🛠️ How to Build and Run (C++ FSM)
+
 ### Prerequisites
-
 - [CMake](https://cmake.org/)
-- A C++ compiler (e.g. MinGW or g++)
+- A C++ compiler (e.g., MinGW or g++)
+- Python 3.x (for the UART interface)
 
-### Build Instructions
+---
+
+### 🔧 Build Instructions
 
 ```bash
 # Clone the repository
 git clone https://github.com/Prat30-A/TrafficLightFSM.git
 cd TrafficLightFSM
 
-# Create and enter build directory
+# Create and enter the build directory
 mkdir build
 cd build
 
@@ -41,34 +45,34 @@ cmake --build .
 
 # Run the FSM executable
 ./traffic_fsm.exe
-
-# Run the Python Interface
+### 🖥️ Run the Python Interface
 cd interface
 python control.py
-- You'll be prompted to enter 1 (to simulate emergency) or 0 (normal mode). This writes to ../data/input.txt, which the FSM reads.
+- You’ll be prompted to enter 1 (to simulate emergency) or 0 (normal mode).
+- This writes to ../data/input.txt, which the FSM reads.
 
-#FSM Logic
-The FSM has five states:
+### 🔄 FSM Logic
+- The FSM has five states:
 
-NS_Green
+- NS_Green
 
-NS_Yellow
+- NS_Yellow
 
-EW_Green
+- EW_Green
 
-EW_Yellow
+- EW_Yellow
 
-Emergency
+- Emergency
 
-Each state transitions with a delay:
+- Each state transitions with a delay:
 
-Green: 5s
+- Green: 5 seconds
 
-Yellow: 2s
+- Yellow: 2 seconds
 
-Emergency: 4s (all red)
+- Emergency: 4 seconds (all directions red)
 
-The Python script can trigger Emergency state by writing 1 to data/input.txt.
+- The Python script triggers the Emergency state by writing 1 to data/input.txt.
 
-#License
+### License
 This project is open-source under the MIT License.
